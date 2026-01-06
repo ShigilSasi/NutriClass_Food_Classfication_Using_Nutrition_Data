@@ -53,7 +53,7 @@ No important feature was removed.
 ## Preprocessing Pipeline
 | Step                   | Method              |
 | ---------------------- | ------------------- |
-| Missing numeric values | Mean Imputation     |
+| Missing numeric values | Median Imputation     |
 | Scaling                | StandardScaler      |
 | Boolean to Int         | True → 1, False → 0 |
 | Categorical Imputation | Most Frequent       |
